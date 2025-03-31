@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <title>Simple joys</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
 
       <style>
+        /*
         * {
       border: 1px red dashed;
     }
+      */
          
         html {
           min-height: 100%;
@@ -24,9 +27,17 @@
     #b65b57,
     #d36d68,
     #f18b7a,
-    #ffc4a3
-  );
+    #ffc4a3);
+          color: rgba(255, 255, 255, 1.0);
+          text-decoration: none;
+          font-family: "Trebuchet MS";
+        }
 
+        a {
+          color: rgba(255, 255, 255, 1.0);
+          text-decoration: none;
+          font-family: "Trebuchet MS";
+        }
           .avatar-image {
           width: 164px;
           height: 164px;
@@ -58,6 +69,9 @@
           .name-row {
           margin-bottom: 30px;
           text-align: center;
+          font-family: "Trebuchet MS";
+          font-size: 24px;
+          font-weight: bold;
           }
 
           .social-icons-row {
@@ -70,6 +84,10 @@
           margin-bottom: 20px;
           display: flex;
           align-items: center;
+          border-radius: 1000px;
+          padding: 5px;
+          padding-right: 53px;
+          box-shadow: 4px 4px 10px 0px rgba(192, 103, 99, 0.9);
           }
 
           .link-text {
@@ -77,7 +95,7 @@
           flex-grow: 1;
           }
 
-        }
+        
 
       </style>
 
@@ -95,15 +113,15 @@
   
       <div class="social-icons-row">
         <a href="https://www.linkedin.com/in/nehir-mentes/" target="_blank">
-          LinkedIn
+          <i class="fa-brands fa-linkedin"></i>
         </a>
   
         <a href="https://www.instagram.com/winewithnehir/" target="_blank">
-          Instagram - Wine 🍷 with Nehir ❤️
+          <i class="fa-brands fa-square-instagram"></i> Wine 🍷 with Nehir ❤️
         </a>
 
         <a href="https://www.vivino.com/users/nehir.mentes" target="_blank">
-          Vivino
+          <i class="fa-solid fa-wine-glass"></i>
         </a>
       </div>
 
